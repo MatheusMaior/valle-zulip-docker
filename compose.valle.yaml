@@ -39,7 +39,7 @@ services:
     build:
       args:
         ZULIP_GIT_URL: "https://github.com/MatheusMaior/valle-zulip.git"
-        ZULIP_GIT_REF: "62162a414e36df62f5cd59ab61860eae79f45a7a"
+        ZULIP_GIT_REF: "da91035a45877046629d5f50a6045a71a41b60c4"
     ports: !reset []
     expose: ["80"]
     environment:
