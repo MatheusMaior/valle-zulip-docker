@@ -33,13 +33,13 @@ services:
     pids_limit: 64
 
   zulip:
-    image: "valle/zulip-server:12.2-valle.3"
+    image: "valle/zulip-server:12.2-valle.4"
     pull_policy: never
     container_name: valle-zulip
     build:
       args:
         ZULIP_GIT_URL: "https://github.com/MatheusMaior/valle-zulip.git"
-        ZULIP_GIT_REF: "9f3bd52cc45612d15e2e93cfe51316b20c04d355"
+        ZULIP_GIT_REF: "62162a414e36df62f5cd59ab61860eae79f45a7a"
     ports: !reset []
     expose: ["80"]
     environment:
